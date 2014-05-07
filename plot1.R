@@ -22,7 +22,7 @@ png("plot1.png", width = 480, height = 480, unit = "px")
 with(data, hist(Global_active_power, 
                 main = "Global Active Power", 
                 col = "red",
-                xlab = "Global Active Power (kilowatts"),
+                xlab = "Global Active Power (kilowatts)",
                 ylab = "Frequency")
 
 ## Close graphics device
