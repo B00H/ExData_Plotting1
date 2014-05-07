@@ -1,5 +1,5 @@
 ## This code will read the required data, make a plot of global active
-## power across 3 days (Thursday, Friday, Saturday), save it as png. 
+## power across "3" days (Thursday, Friday, Saturday), save it as png. 
 
 ## Set directory to where household_power_consumption.txt was saved to.
 ## Dear peer reviewer - you might have to change this if you are 
@@ -24,7 +24,6 @@ png("plot2.png", width = 480, height = 480, unit = "px")
 
 ## Plot variable of interest, but without axis labels
 plot(data$Global_active_power, type = "n", xaxt = "n", ann = F)
-     ylab = "Global Active Power (kilowatts)")
 
 ## Add data to plot
 lines(data$Global_active_power)
