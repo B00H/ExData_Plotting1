@@ -23,7 +23,7 @@ with(data, hist(Global_active_power,
                 main = "Global Active Power", 
                 col = "red",
                 xlab = "Global Active Power (kilowatts)",
-                ylab = "Frequency")
+                ylab = "Frequency"))
 
 ## Close graphics device
 dev.off()
